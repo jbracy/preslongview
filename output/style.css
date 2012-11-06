@@ -1,101 +1,1020 @@
-* {
-  margin: 0;
-  padding: 0;
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Judge Campbell House </title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
 
-  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc 3.4.2"> 
+  </head>
+  <body>
+    <div id="header">
+  <a href="/login">Log in</a>
+</div>
+
+<div id="top">
+  <div id="top-house">
+    <div class="left_banner">
+	  <a href="/texas_most_endangered.pdf"><img src="/images/endangered.jpg" alt="Texas Most Endangered PDF" /></a>
+	</div>
+  </div>
+</div>
+
+<div id="ribbon">
+  <h1><img src="/images/ribbon.gif" alt="The Judge Campbell House" width="781" height="66" /></h1>
+</div>
+	
+	<div id="container">
+	    <div id="content">
+			/* ---------- Campbell ----------- */
+#header {
+	text-align: right;
+	color: darkkhaki;
+	height: 20;
+	margin: 0;
+	background-image: url(../images/topbackground.gif);
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+
+#header a {
+    text-decoration: none;
+    color: darkkhaki;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background: #fff;
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    text-align: center;
+    background-image: url(../images/content-background.gif);
+    background-repeat: repeat-x;
+    background-position: left 152px;
 }
 
-a {
-  text-decoration: none;
+#container {
+    text-align: left;
+    width: 771px;
+    margin: 0 auto;
 }
 
-a:link,
-a:visited {
-  color: #f30;
+#top {
+    height: 152px;
+    margin: 0;
+    background-image: url(../images/topbackground.gif);
+    background-position: center top;
+    background-repeat: repeat-x;
 }
 
-a:hover {
-  color: #f90;
+#top-house {
+	height:140px;
+	width:100%;
+	background:url(../images/house.gif) center no-repeat;margin:0 auto 0 auto;
+}
+#top .left_banner {
+	float:left;
+	background-color: white;
+	border:3px solid #b21c1c;
+	margin:20px 40px;
+	width:154px;
+	height:80px;	
 }
 
-#main {
-  position: absolute;
-
-  top: 40px;
-  left: 280px;
-
-  width: 500px;
+#top .banner {
+	float:right;
+	background-color: white;
+	border:3px solid #b21c1c;
+	margin:20px 30px;
+	width:270px;
+	height:80px;
+}
+#top .banner .date {
+	float: left;
+	width: 80px;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	margin: 8px 2px;
+	height: 60px;
+}
+#top .banner .date h2, #top .banner .date h4 {
+	margin:0;
+	font-weight:normal;
+}
+#top .banner .date h2 {
+	font-size:27px;
+	color:#b21c1c;
+}
+#top .banner .date h4 {
+	font-size:13px;
+}
+#top .banner .line {
+	font-weight:bold;
+	margin-top:5px;
 }
 
-#main h1 {
-  font-size: 40px;
-  font-weight: normal;
-
-  line-height: 40px;
-
-  letter-spacing: -1px;
+#ribbon {
+    width: 781px;
+    height: 66px;
+    margin: 0 auto;
+    margin-top: -13px;
 }
 
-#main p {
-  margin: 20px 0;
-  
-  font-size: 15px;
-  
-  line-height: 20px;
+#ribbon h1 {
+    margin: 0;
+    padding: 0;
 }
 
-#main ul, #main ol {
-  margin: 20px;
+#content {
+    float: left;
+    width: 501px;
+    padding: 10px;
 }
 
-#main li {
-  font-size: 15px;
-  
-  line-height: 20px;
+#content h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-align: right;
+    margin-top: 0;
 }
 
-#main ul li {
-  list-style-type: square;
+#content h2 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	margin-bottom: -0.5em;
+	margin-top: 1em;
+}
+#content h3 {  font-size: 1.05em; }
+#content p {
+    line-height: 150%;
+    text-align: left;
 }
 
-#sidebar {
-  position: absolute;
-
-  top: 40px;
-  left: 20px;
-  width: 200px;
-
-  padding: 20px 20px 0 0;
-
-  border-right: 1px solid #ccc;
-
-  text-align: right;
+#content p img {
+    margin: 0 15px 15px 0;
+    float: left;
 }
 
-#sidebar h2 {
-  text-transform: uppercase;
+#content a { color: #000; }
 
-  font-size: 13px;
+#content ul.links { margin: 0; padding: 15px; }
+#content ul.links li { line-height: 140%; }
 
+#navigation {
+    float: right;
+    width: 230px;
+    padding: 10px;
+}
+
+#navigation ul {
+    border-left: 2px solid black;
+    margin: 0;
+    padding: 0 0 0 10px;
+    list-style-type: none;
+    font-size: 1.1em;
+    font-style: italic;
+    line-height: 140%;
+}
+#navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+#navigation a:active, #navigation a:hover {
+    text-decoration: underline;
+}
+
+#navigation p {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#navigation p.caption {
+    font-variant: small-caps;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding: 15px 0 15px 0;
+}
+
+#footer p {
+    line-height: 140%;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+#footer img {
+    margin: 0 5px -3px 5px;
+}
+
+#footer a {
+    color: black;
+}
+ul {
+	border:0;
+	padding:0;
+}
+ul.paybox li {
+	display:inline;
+	list-style:none;
+	float:left;
+	width:248px;
+	text-align:center;
+	min-height:200px;
+}
+ul.paybox li h4 {
+	margin-top:50px;
+}
+
+.date {
+	float: left;
+	width: 80px;
+	border-right: 1px solid #333;
+	text-align: center;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.date .day {
+	font-size:34px;
+	color:#009900;
+}
+.date .day a {
+	text-decoration:none;
+	border:0;
+}
+.date .month {}
+.date .time {}
+.event-description {
+	margin-left: 100px;
+}
+.bottom-margin {
+	padding-bottom: 20px;
+}
+.clear {
+	clear: both;
+}
+
+#houses {
+	width:380px;
+	margin:0 auto;
+}
+#houses .house{
+	float: left;
+	width:110px;
+	text-align:center;
+	margin:5px;
+}
+#houses .house a img {
+	border: 5px solid #000;
+	margin:0;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title : Wufoo Form Foundation
+Author : Infinity Box Inc.
+URL : http://wufoo.com
+
+Last Updated : November 13, 2007
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+.wufoo{
+	/* font-family: Georgia, serif; */
+	/* font-family:"Lucida Grande", Tahoma, Arial, sans-serif; */
+	font-size:small;
+}
+.wufoo li{
+	width:62%;
+}
+form ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:100%;
+	font-size:100%;
+}
+form li{
+	margin:0;
+	padding:4px 5px 2px 9px;
+	position:relative;
+	clear:both;
+}
+form li:after, .buttons:after{
+	content:"."; 
+	display:block;
+	height:0; 
+	clear:both; 
+	visibility:hidden;
+}
+
+form li, .buttons{display: inline-block;}
+* html form li, * html .buttons{height: 1%;}
+form li, .buttons{display: block;}
+
+* html form li div{
+	display:inline-block;
+}
+form li div, form li span{
+	margin:0 4px 0 0;
+	padding:0 0 8px 0;
+	color:#444;
+}
+form li span{
+	float:left;
+}
+
+form li div.address{
+	padding-bottom:0;
+}
+
+form li div.left{
+	display:inline;
+	float:left;
+	width:47%;
+}
+form li div.right{
+	display:inline;
+	float:right;
+	width:47%;
+}
+
+.clear{
+	clear:both !important;
+}
+
+/* ----- INFO ----- */
+
+.info{
+	display:inline-block; 
+	clear:both;
+	border-bottom:1px dotted #ccc;
+	margin:0 0 1em 0;
+}
+.info[class]{
+	display:block;
+}
+.info h2{
+	font-weight:normal;
+	font-size:160%;
+	margin:0 0 3px 0;
+	clear:left;
+}
+.info p{
+	font-size:95%;
+	line-height:135%;
+	margin:0 0 12px 0;
+}
+
+/* ----- SECTIONS ----- */
+
+form hr{
+	display:none;
+}
+form li.section{
+	border-top:1px dotted #ccc;
+	margin-top:9px;
+	padding-top:13px;
+	padding-bottom:0px;
+	padding-left:9px;
+	width:97% !important;
+}
+form ul li.first{
+	border-top:none !important;
+	margin-top:0px !important;
+	padding-top:0px !important;
+}
+form .section h3{
+	font-weight:normal;
+	font-size:110%;
+	line-height:135%;
+	margin:0 0 2px 0;
+}
+form .section p{
+	font-size:85%;
+	margin:0 0 10px 0;
+}
+
+/* ----- FIELDS AND LABELS ----- */
+
+label.desc{
+	line-height:150%;
+	padding:0 0 1px 0;
+	border:none;
+	color:#222;
+	display:block;
+	font-size:95%;
+	font-weight:bold;
+}
+label.choice{
+	font-size:100%;
+	display:block;
+	line-height:1.4em;
+	margin:-1.55em 0 0 25px;
+	padding:4px 0 5px 0;
+	color:#222;
+	width:90%;
+}
+form li div label, form li span label{
+	margin:0;
+	padding-top:3px;
+	clear:both;
+	font-size:9px;
+	line-height:9px;
+	color:#444;
+	display:block;
+}
+
+input.text, input.file, textarea.textarea, select.select{
+	margin:0;
+	font-size:100%;
+	color:#333;
+}
+input.text, textarea.textarea, .firefox select.select{
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+	background:#fff url(/images/fieldbg.gif) repeat-x top;
+}
+input.text, input.file{
+	padding:2px 0 2px 0;
+}
+
+input.checkbox, input.radio{
+	display:block;
+	line-height:1.4em;
+	margin:6px 0 0 3px;
+	width:13px;
+	height:13px;
+}
+textarea.textarea{
+	font-family:"Lucida Grande", Tahoma, Arial, sans-serif;
+}
+select.select{
+	font-family:"Lucida Grande", Tahoma, Arial, sans-serif;
+	margin:1px 0;
+	padding:1px 0 0 0;
+}
+select.select[class]{
+	margin:0;
+	padding:1px 0 1px 0;
+}
+*:first-child+html select.select[class]{
+	margin:1px 0;
+}
+.safari select.select{
+	margin-bottom:1px;
+	font-size:120% !important;
+}
+
+span.symbol{
+	font-size:115%;
+	line-height:130%;
+}
+form li .datepicker{
+	float:left;
+	margin:.1em 5px 0 0;
+	padding:0;
+	width: 16px;
+	height: 16px;
+	cursor:pointer !important;
+}
+
+/* ----- BUTTONS ----- */
+
+input.btTxt{
+	padding:0 7px;
+	width:auto;
+	overflow:visible;
+}
+.buttons{
+	clear:both;
+	margin-top:10px;
+}
+.buttons input{
+	font-size:120%;
+	margin-right: 5px;
+}
+
+/* ----- TEXT DIRECTION ----- */
+
+.rtl .info h2, .rtl .info p, .rtl label.desc, .rtl label.choice, 
+.rtl div label, .rtl span label, .rtl input.text, 
+.rtl textarea.textarea, .rtl select.select, .rtl p.instruct, 
+.rtl .section h3, .rtl .section p, .rtl input.btTxt{
+	direction:rtl;
+}
+
+/* ----- SIZES ----- */
+
+.third{
+	width:32% !important;
+}
+.half{
+	width:48% !important;
+}
+.full{
+	width:100% !important;
+}
+
+input.small, select.small{
+	width:25%;
+}
+input.medium, select.medium{
+	width:50%;
+}
+input.large, select.large, textarea.textarea{
+	width:100%;
+}
+
+textarea.small{
+	height:5.5em;
+}
+textarea.medium{
+	height:10em;
+}
+textarea.large{
+	height:20em;
+}
+
+/* ----- ERRORS ----- */
+
+#errorLi{
+	width:99%;
+	margin:0 auto;
+	background:#fff;
+	border:1px dotted red;
+	margin-bottom:1em;
+	text-align:center;
+	padding-top:4px;
+	padding-left:0px;
+	padding-right:0px;
+}
+#errorMsgLbl{
+	margin:7px 0 5px 0;
+	padding:0;
+	font-size:125%;
+	color:#DF0000;
+}
+#errorMsg{
+	margin:0 0 .8em 0;
+	color:#000;
+	font-size:100%;
+}
+#errorMsg strong{
+	background-color: #FFDFDF;
+	padding:2px 3px;
+	color:red;
+}
+form li.error{
+	display:block !important;
+	background-color: #FFDFDF !important;
+	margin:3px 0;
+}
+form li.error label{
+	color:#DF0000 !important;
+}
+form p.error{
+	color:red;
+	font-weight:bold;
+	font-size:10px;
+	margin:-2px 0 5px 0;
+	clear:both;
+}
+.leftLabel p.error, .rightLabel p.error{
+	margin-left:30%;
+	padding-left:15px;
+}
+.noI .leftLabel p.error, .noI .rightLabel p.error{
+	margin-left:35%;
+	padding-left:15px;
+}
+
+/* ----- REQUIRED ----- */
+
+form .req{
+	float:none;
+	color:red !important;
+	font-weight:bold;
+	margin:0;
+}
+
+/* ----- INSTRUCTIONS ----- */
+
+form li.focused{
+	background-color:#fff7c0;
+}
+form .instruct{
+	position:absolute;
+	top:0;
+	left:100%;
+	z-index:1000;
+	width:42%;
+	margin:0 0 0 8px;
+	padding:8px 10px 9px 10px;
+	border:1px solid #e6e6e6;
+	background:#f5f5f5;
+	line-height:130%;
+	font-size:80%;
+	color:#444;
+	visibility:hidden;
+}
+form .instruct small{
+	font-size:105%;
+}
+form li.focused .instruct, form li:hover .instruct{
+	visibility:visible;
+}
+
+/* ----- ALT INSTRUCTIONS ----- */
+
+li.altInstruct .instruct, li.leftHalf .instruct, li.rightHalf .instruct{
+	visibility:visible;
+	position:static;
+	margin:-2px 0 0 0;
+	padding:0 0 7px 0;
+	background:none;
+	border:none;
+	width:100%;
+	font-size:9px;
+	clear:left;
+}
+
+/* ----- LABEL LAYOUT ----- */
+
+.leftLabel li, .rightLabel li, li.leftLabel, li.rightLabel{
+	width:74% !important;
+	padding-top:9px;
+}
+
+.leftLabel .small, .rightLabel .small{
+	width:17%;
+}
+.leftLabel .medium, .rightLabel .medium{
+	width:35%;
+}
+.leftLabel .large, .leftLabel textarea.textarea,
+.rightLabel .large, .rightLabel textarea.textarea,
+.leftLabel .address, .rightLabel .address{
+	width:64%;
+}
+
+* html .leftLabel .small, * html .rightLabel .small{
+	width:23%;
+}
+* html .leftLabel .medium, * html .rightLabel .medium{
+	width:55%;
+}
+* html .leftLabel .large, * html .leftLabel textarea.textarea,
+* html .rightLabel .large, * html .rightLabel textarea.textarea{
+	width:97%;
+}
+
+.leftLabel label.desc, .rightLabel label.desc{
+	float:left;
+	width:30%;
+	margin:2px 15px 0 0;
+}
+.rightLabel label.desc{
+	text-align:right;
+}
+.leftLabel .address, .rightLabel .address{
+	float:left;
+}
+
+.leftLabel p.instruct, .rightLabel p.instruct{
+	width:27%;
+	margin-left:5px;
+}
+.leftLabel .altInstruct .instruct, .rightLabel .altInstruct .instruct{
+	margin-left:30% !important;
+	padding-left:15px;
+	width:65%;
+}
+
+.leftLabel .buttons, .rightLabel .buttons{
+	margin-left:15px;
+}
+.leftLabel .buttons input, .rightLabel .buttons input{
+	margin-left:30%;
+}
+
+/* ----- NO INSTRUCTIONS ----- */
+
+.noI .instruct{
+	display:none !important;
+}
+.noI form li, .noI form li.buttons{
+	width:97% !important;
+}
+.noI form li.section{
+	padding-left:9px !important;
+}
+
+/* ----- NO INSTRUCTIONS LABEL LAYOUT ----- */
+
+.noI .leftLabel .large, .noI .leftLabel textarea.textarea,
+.noI .rightLabel .large, .noI .rightLabel textarea.textarea,
+.noI .leftLabel .address, .noI .rightLabel .address{
+	width:60%;
+}
+
+* html .noI .leftLabel .small, * html .noI .rightLabel .small{
+	width:23%;
+}
+* html .noI .leftLabel .medium, * html .noI .rightLabel .medium{
+	width:55%;
+}
+* html .noI .leftLabel .large, * html .noI .leftLabel textarea.textarea,
+* html .noI .rightLabel .large, * html .noI .rightLabel textarea.textarea{
+	width:97%;
+}
+
+.noI .leftLabel label.desc, .noI .rightLabel label.desc{
+	width:35%;
+}
+.noI .leftLabel .buttons input, .noI .rightLabel .buttons input{
+	margin-left:35%;
+}
+
+/* ----- FIELD FLOATING ----- */
+
+form li.leftHalf, form li.rightHalf{
+	width:46% !important;
+}
+li.leftHalf{
+	clear:left;
+	float:left;
+}
+li.rightHalf{
+	clear:none;
+	float:right;
+}
+li.leftHalf .medium, li.rightHalf .medium,
+li.leftHalf .small, li.rightHalf .small{
+	width:100%;
+}
+
+/* ------------ lightbox -------------- */
+#lightbox {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    line-height: 0;
+}
+
+#lightbox img {
+    width: auto;
+    height: auto;
+}
+
+#lightbox a img {
+    border: none;
+}
+
+#outerImageContainer {
+    position: relative;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#imageContainer {
+    padding: 10px;
+}
+
+#loading {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+
+#hoverNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+#imageContainer >#hoverNav {
+    left: 0;
+}
+
+#hoverNav a {
+    outline: none;
+}
+
+#prevLink, #nextLink {
+    width: 49%;
+    height: 100%;
+    background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */
+    display: block;
+}
+
+#prevLink {
+    left: 0;
+    float: left;
+}
+
+#nextLink {
+    right: 0;
+    float: right;
+}
+
+#prevLink:hover, #prevLink:visited:hover {
+    background: url(../images/prevlabel.gif) left 15% no-repeat;
+}
+
+#nextLink:hover, #nextLink:visited:hover {
+    background: url(../images/nextlabel.gif) right 15% no-repeat;
+}
+
+#imageDataContainer {
+	font-family: Georgia, serif;
+    font-size: 0.9em;
+    /*font: 10px Verdana, Helvetica, sans-serif;*/
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 1.4em;
+    overflow: auto;
+    width: 100%;
+}
+
+#imageData {
+    padding: 0 10px;
+    color: #666;
+}
+
+#imageData #imageDetails {
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+
+#imageData #caption {
+    font-weight: bold;
+}
+
+#imageData #numberDisplay {
+    display: block;
+    clear: left;
+    padding-bottom: 1.0em;
+}
+
+#imageData #bottomNavClose {
+    width: 66px;
+    float: right;
+    padding-bottom: 0.7em;
+    outline: none;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+}
+
+/* ----- scaffold --------- */
+body { background-color: #fff; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
   color: #333;
-
-  letter-spacing: 1px;
-
-  line-height: 20px;
+  margin-bottom: 0;
+  padding: 5px;
 }
 
-#sidebar ul {
-  list-style-type: none;
-
-  margin: 20px 0;
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
 }
 
-#sidebar li {
-  font-size: 14px;
-
-  line-height: 20px;
+div.uploadStatus {
+  margin: 5px;
 }
+
+div.progressBar {
+  margin: 5px;
+}
+
+div.progressBar div.border {
+  background-color: #fff;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+div.progressBar div.background {
+  background-color: #333;
+  height: 18px;
+  width: 0%;
+}
+		</div>
+    </div>
+    
+    <div id="navigation">
+<ul>
+<li><a href="/home">Home</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/events">Event Calendar</a></li>
+<li><a href="/bio">Biography of Judge J.N. Campbell</a></li>
+<!-- li><a href="/photo"><b>Photo Gallery</b></a></li -->
+<li><a href="/plans">Plans</a></li>
+<li><a href="/historical_dig">Historical Dig</a></li>
+<li><a href="/lost_homes">Lost/Hidden/Saved Homes</a></li>
+<li><a href="/signup">Preservation Longview Membership</a></li>
+<li><a href="/gerard-cace">Gerard Cace Memorial</a></li>
+<li><a href="/sponsor">Sponsorships/Donations</a></li>
+<li><a href="/donors">Donors</a></li>
+<li><a href="/resources">Resources</a></li>
+<li><a href="/contact">Contact Us</a></li>
+
+</ul>
+<p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
+<p class="caption">Judge Campbell.</p>
+</div>
+	
+	<div id="footer">
+    <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
+</div>
+	
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-5236373-12");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+	
+  </body>
+</html>
