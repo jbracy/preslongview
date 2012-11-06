@@ -188,6 +188,7 @@ body {
 
 #navigation a:active, #navigation a:hover {
     text-decoration: underline;
+	background:none;
 }
 
 #navigation p {

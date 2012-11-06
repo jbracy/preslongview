@@ -142,7 +142,7 @@ Preservation Longview's first project will be to restore this architecturally si
                       </p>
 <p>
 In February 2009, the Judge J.N. Campbell House was placed on the 2009 Texas' Most Endangered List by Preservation Texas.;T:	post@
-I"/stylesheet/;T{;{	;I"¸G<!DOCTYPE HTML>
+I"/stylesheet/;T{;{	;I"ÊG<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -332,6 +332,7 @@ body {
 
 #navigation a:active, #navigation a:hover {
     text-decoration: underline;
+	background:none;
 }
 
 #navigation p {
@@ -1162,7 +1163,7 @@ div.progressBar div.background {
 	
   </body>
 </html>
-;T;	I"Ï</* ---------- Campbell ----------- */
+;T;	I"á</* ---------- Campbell ----------- */
 #header {
 	text-align: right;
 	color: darkkhaki;
@@ -1323,6 +1324,7 @@ body {
 
 #navigation a:active, #navigation a:hover {
     text-decoration: underline;
+	background:none;
 }
 
 #navigation p {
@@ -2112,7 +2114,7 @@ div.progressBar div.background {
   height: 18px;
   width: 0%;
 };T;
-I"Ï</* ---------- Campbell ----------- */
+I"á</* ---------- Campbell ----------- */
 #header {
 	text-align: right;
 	color: darkkhaki;
@@ -2273,6 +2275,7 @@ body {
 
 #navigation a:active, #navigation a:hover {
     text-decoration: underline;
+	background:none;
 }
 
 #navigation p {
