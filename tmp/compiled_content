@@ -1,11 +1,27 @@
-{:	data{}I"/:ET{:default{	:	lastI"”<!DOCTYPE HTML>
+{:	data{}I"/:ET{:default{	:	lastI"ñ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -53,9 +69,8 @@ Preservation Longview's first project will be to restore this architecturally si
 <p>
 In February 2009, the Judge J.N. Campbell House was placed on the 2009 Texas' Most Endangered List by Preservation Texas.
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -76,10 +91,12 @@ In February 2009, the Judge J.N. Campbell House was placed on the 2009 Texas' Mo
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -142,14 +159,30 @@ Preservation Longview's first project will be to restore this architecturally si
                       </p>
 <p>
 In February 2009, the Judge J.N. Campbell House was placed on the 2009 Texas' Most Endangered List by Preservation Texas.;T:	post@
-I"/stylesheet/;T{;{	;I" G<!DOCTYPE HTML>
+I"/stylesheet/;T{;{	;I"uJ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -1065,7 +1098,7 @@ pre {
 
 a { color: #000; }
 a:visited { color: #666; }
-a:hover { color: #fff; background-color:#000; }
+a:hover { color: #fff;}
 
 .fieldWithErrors {
   padding: 2px;
@@ -1123,9 +1156,8 @@ div.progressBar div.background {
   width: 0%;
 }
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -1146,10 +1178,12 @@ div.progressBar div.background {
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -1163,7 +1197,7 @@ div.progressBar div.background {
 	
   </body>
 </html>
-;T;	I"·</* ---------- Campbell ----------- */
+;T;	I"…</* ---------- Campbell ----------- */
 #header {
 	text-align: right;
 	color: darkkhaki;
@@ -2057,7 +2091,7 @@ pre {
 
 a { color: #000; }
 a:visited { color: #666; }
-a:hover { color: #fff; background-color:#000; }
+a:hover { color: #fff;}
 
 .fieldWithErrors {
   padding: 2px;
@@ -2114,7 +2148,7 @@ div.progressBar div.background {
   height: 18px;
   width: 0%;
 };T;
-I"·</* ---------- Campbell ----------- */
+I"…</* ---------- Campbell ----------- */
 #header {
 	text-align: right;
 	color: darkkhaki;
@@ -3008,7 +3042,7 @@ pre {
 
 a { color: #000; }
 a:visited { color: #666; }
-a:hover { color: #fff; background-color:#000; }
+a:hover { color: #fff;}
 
 .fieldWithErrors {
   padding: 2px;
@@ -3064,14 +3098,30 @@ div.progressBar div.background {
   background-color: #333;
   height: 18px;
   width: 0%;
-};T;@I"/about/;T{;{	;I"Ë<!DOCTYPE HTML>
+};T;@I"/about/;T{;{	;I"´<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -3103,9 +3153,8 @@ div.progressBar div.background {
 
 <p>Construction is underway. Watch the house and this website for progress.  All inquires for construction go to the Project Manager, Kerry Martin at 903-918-4641.</p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -3126,10 +3175,12 @@ div.progressBar div.background {
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -3161,14 +3212,30 @@ I"ˇ<h1>About us</h1>
 <p>Preservation Longview is the recipient of three grants from the National Historic Trust and a HOT Grant from the City of Longview.</p>
 
 <p>Construction is underway. Watch the house and this website for progress.  All inquires for construction go to the Project Manager, Kerry Martin at 903-918-4641.</p>;T;@I"
-/bio/;T{;{	;I"d<!DOCTYPE HTML>
+/bio/;T{;{	;I"'<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -3209,9 +3276,8 @@ Volume I<br />
 Ellis Arthur David, Editor. Revised edition.<br />
 1936. pp. 706-707</p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -3232,10 +3298,12 @@ Ellis Arthur David, Editor. Revised edition.<br />
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -3284,14 +3352,30 @@ I"{<h1>Biography of Judge J.N. Campbell</h1>
 (Cover: <i>The New Encyclopedia of Texas)</i><br />
 Volume I<br />
 Ellis Arthur David, Editor. Revised edition.<br />
-1936. pp. 706-707</p>;T;@I"/contact/;T{;{	;I"¿<!DOCTYPE HTML>
+1936. pp. 706-707</p>;T;@I"/contact/;T{;{	;I"É<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -3323,9 +3407,8 @@ Ellis Arthur David, Editor. Revised edition.<br />
 			Telephone number: 903-720-1398
 		</p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -3346,10 +3429,12 @@ Ellis Arthur David, Editor. Revised edition.<br />
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -3380,14 +3465,30 @@ I"◊                <h1>Contact Us</h1>
 		<h2>Ellen Campbell Gordon.</h2>
 		<p>
 			Telephone number: 903-720-1398
-		</p>;T;@"I"/donors/;T{;{	;I"j<!DOCTYPE HTML>
+		</p>;T;@"I"/donors/;T{;{	;I"-<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -3490,9 +3591,8 @@ I"◊                <h1>Contact Us</h1>
 </ul>
 </div>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -3513,10 +3613,12 @@ I"◊                <h1>Contact Us</h1>
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -3689,14 +3791,30 @@ I"Å                <h1>Preservation Longview Donor Recognition</h1>
  <li><a href="http://www.aep.com/">SWEPCO</a></li> <li><a href="http://www.wolfprints.us//">Wolf Prints</a></li>
   <li><a href="http://www.ustitlelongview.com/">US Title</a> - Professional Services</li>
 </ul>
-</div>;T;@(I"/events/;T{;{	;I" <!DOCTYPE HTML>
+</div>;T;@(I"/events/;T{;{	;I"√<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -3720,9 +3838,8 @@ I"Å                <h1>Preservation Longview Donor Recognition</h1>
 	    <div id="content">
 			<h1>Event Calendar</h1>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -3743,10 +3860,12 @@ I"Å                <h1>Preservation Longview Donor Recognition</h1>
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -3761,14 +3880,30 @@ I"Å                <h1>Preservation Longview Donor Recognition</h1>
   </body>
 </html>
 ;T;	I"<h1>Event Calendar</h1>;T;
-I"<h1>Event Calendar</h1>;T;@.I"/gerard-cace/;T{;{	;I"˚<!DOCTYPE HTML>
+I"<h1>Event Calendar</h1>;T;@.I"/gerard-cace/;T{;{	;I"æ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -3846,9 +3981,8 @@ I"<h1>Event Calendar</h1>;T;@.I"/gerard-cace/;T{;{	;I"˚<!DOCTYPE HTM
     You can also donate online here.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -3869,10 +4003,12 @@ I"<h1>Event Calendar</h1>;T;@.I"/gerard-cace/;T{;{	;I"˚<!DOCTYPE HTM
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -3995,14 +4131,30 @@ I"                <p>
 
 <p>
     You can also donate online here.
-</p>;T;@4I"/historical_dig/;T{;{	;I"Õ<!DOCTYPE HTML>
+</p>;T;@4I"/historical_dig/;T{;{	;I"ê<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -4041,9 +4193,8 @@ bottle glass.</p>
 <div style="float:left;text-align:center;width:150px;"><img src="/images/dig/b.png" style="border:2px solid #000;" />Illustration B</div>
 <div style="float:right;text-align:center;width:317px;"><img src="/images/dig/c.png" style="border:2px solid #000;" />Illustration C</div>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -4064,10 +4215,12 @@ bottle glass.</p>
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -4112,14 +4265,30 @@ bottle glass.</p>
 <p>This site did indeed offered enough undisturbed features and artifacts to merit further investigation when more time and financing are available.</p>
 
 <div style="float:left;text-align:center;width:150px;"><img src="/images/dig/b.png" style="border:2px solid #000;" />Illustration B</div>
-<div style="float:right;text-align:center;width:317px;"><img src="/images/dig/c.png" style="border:2px solid #000;" />Illustration C</div>;T;@:I"/lost_homes/;T{;{	;I"&<!DOCTYPE HTML>
+<div style="float:right;text-align:center;width:317px;"><img src="/images/dig/c.png" style="border:2px solid #000;" />Illustration C</div>;T;@:I"/lost_homes/;T{;{	;I"Œ(<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -4333,9 +4502,8 @@ bottle glass.</p>
   </td>
 </table>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -4356,10 +4524,12 @@ bottle glass.</p>
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -4754,14 +4924,30 @@ I""                <h2>Lost/Hidden/Saved Homes of Longview</h2>
   <tr>
     <td style="padding-bottom:2px;vertical-align:top;">Falvey House:</td><td>Knights of Pythesus</td>
   </td>
-</table>;T;@@I"/plans/;T{;{	;I"<!DOCTYPE HTML>
+</table>;T;@@I"/plans/;T{;{	;I"œ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -4802,9 +4988,8 @@ Architectural Drawing underway by Gerald Bratz in part by a grant from the Natio
 		 <br /><br />
 		<h2>Phase VI: Grounds, Gardens, Pond.</h2>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -4825,10 +5010,12 @@ Architectural Drawing underway by Gerald Bratz in part by a grant from the Natio
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -4877,14 +5064,30 @@ Architectural Drawing underway by Gerald Bratz in part by a grant from the Natio
 		 <br /><br />
 		<h2>Phase V: Interior restoration (including electrical, plumbing, interior walls, floor). </h2>
 		 <br /><br />
-		<h2>Phase VI: Grounds, Gardens, Pond.</h2>;T;@FI"/resources/;T{;{	;I"Á<!DOCTYPE HTML>
+		<h2>Phase VI: Grounds, Gardens, Pond.</h2>;T;@FI"/resources/;T{;{	;I"™<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -4925,9 +5128,8 @@ Architectural Drawing underway by Gerald Bratz in part by a grant from the Natio
   <li><a href="http://www.thc.state.tx.us/aboutus/abtpdfs/THCStrategicPlan07.pdf" target="_blank">Texas Historical Commission Strategic Plan  for Fiscal Years 2007 √¢‚Ç¨‚Äù 2011</a></li>
 </ul>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -4948,10 +5150,12 @@ Architectural Drawing underway by Gerald Bratz in part by a grant from the Natio
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -5000,14 +5204,30 @@ I"˛                <h1>Resources</h1>
   <li><a href="http://easttexasoilmuseum.com/"> East Texas Oil Museum</a></li>
   <li><a href="http://www.texaspineywoodsexperience.org/" target="_blank">Texas Pineywoods Experience</a></li>
   <li><a href="http://www.thc.state.tx.us/aboutus/abtpdfs/THCStrategicPlan07.pdf" target="_blank">Texas Historical Commission Strategic Plan  for Fiscal Years 2007 √¢‚Ç¨‚Äù 2011</a></li>
-</ul>;T;@LI"/signup/;T{;{	;I"Ê\<!DOCTYPE HTML>
+</ul>;T;@LI"/signup/;T{;{	;I"©_<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -5469,9 +5689,8 @@ I"˛                <h1>Resources</h1>
 </ul>
 </form>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -5492,10 +5711,12 @@ I"˛                <h1>Resources</h1>
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -6386,14 +6607,30 @@ I"˝Q<h1>Become a Member</h1>
         <input class="btTxt" name="commit" tabindex="16" type="submit" value="Submit" />
     </li>
 </ul>
-</form>;T;@RI"/sponsor/;T{;{	;I"/<!DOCTYPE HTML>
+</form>;T;@RI"/sponsor/;T{;{	;I"Ú<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -6541,9 +6778,8 @@ I"˝Q<h1>Become a Member</h1>
 </tr>
 </table>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -6564,10 +6800,12 @@ I"˝Q<h1>Become a Member</h1>
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -6953,14 +7191,30 @@ I"ã                <h1>Biography of Judge J.N. Campbell</h1>
 (Cover: <i>The New Encyclopedia of Texas)</i><br />
 Volume I<br />
 Ellis Arthur David, Editor. Revised edition.<br />
-1936. pp. 706-707</p>;T;@^I"/bodenheim_home/;T{;{	;I"r<!DOCTYPE HTML>
+1936. pp. 706-707</p>;T;@^I"/bodenheim_home/;T{;{	;I"5<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -7002,9 +7256,8 @@ Architectural Style:  Bungalow
 
 <p>Following the death of Mrs. Willie Bodenheim in 1970, the family retained ownership of the family home and rented it for a time. Since 1983, the daughter of Mrs. Edwin Bodenheim (Betty Bodenheim), Betty Clowers and husband Mike have owned and operated the Clowers Company, a promotional products distributor, from the family home. They have set an example for our community of the adaptive reuse of historical buildings and of a family‚Äôs pride in their heritage.</p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -7025,10 +7278,12 @@ Architectural Style:  Bungalow
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -7079,14 +7334,30 @@ Architectural Style:  Bungalow
 
 <p>One of the best-liked and most well-known businessmen and cotton brokers in the area, ‚ÄúColonel Bodie,‚Äù as he was affectionately called, also owned one of the largest insur-ance companies in this part of the country. Mr. Bodenheim served as mayor of Longview from 1901 to 1920. Under his progressive leadership, the city developed a fire and health department, a waterworks and filtration system, a modern sewer system, paved streets, concrete sidewalks, and street lights. In 1918 he guided the city through a race riot during which martial law was declared.</p>
 
-<p>Following the death of Mrs. Willie Bodenheim in 1970, the family retained ownership of the family home and rented it for a time. Since 1983, the daughter of Mrs. Edwin Bodenheim (Betty Bodenheim), Betty Clowers and husband Mike have owned and operated the Clowers Company, a promotional products distributor, from the family home. They have set an example for our community of the adaptive reuse of historical buildings and of a family‚Äôs pride in their heritage.</p>;T;@dI"/bramlette_house/;T{;{	;I"ü<!DOCTYPE HTML>
+<p>Following the death of Mrs. Willie Bodenheim in 1970, the family retained ownership of the family home and rented it for a time. Since 1983, the daughter of Mrs. Edwin Bodenheim (Betty Bodenheim), Betty Clowers and husband Mike have owned and operated the Clowers Company, a promotional products distributor, from the family home. They have set an example for our community of the adaptive reuse of historical buildings and of a family‚Äôs pride in their heritage.</p>;T;@dI"/bramlette_house/;T{;{	;I"b<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -7132,9 +7403,8 @@ Architectural Style:  Colonial Revival
 
 <p>The home is currently owned by Dr. David Sadler, a Longview cardiovascular surgeon. Dr. Sadler devotes great time and effort to the restoration and maintenance of this historic home.</p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -7155,10 +7425,12 @@ Architectural Style:  Colonial Revival
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -7217,14 +7489,30 @@ Architectural Style:  Colonial Revival
 
 <p>Widely known as a landscape architect, Joseph designed many gardens in the city. He donated the land for the Bramlette Elementary School, as well as developed the Bramlette Building and Huntington Park, where the historic family home is hidden by beautiful greenery.</p>
 
-<p>The home is currently owned by Dr. David Sadler, a Longview cardiovascular surgeon. Dr. Sadler devotes great time and effort to the restoration and maintenance of this historic home.</p>;T;@jI"/campbell_home/;T{;{	;I"<!DOCTYPE HTML>
+<p>The home is currently owned by Dr. David Sadler, a Longview cardiovascular surgeon. Dr. Sadler devotes great time and effort to the restoration and maintenance of this historic home.</p>;T;@jI"/campbell_home/;T{;{	;I"À<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -7281,9 +7569,8 @@ The judge‚Äôs home was remodeled in the neo-classical style.  As the home of a p
 In early 2008, following years of neglect and a demolition order, the home was rescued and purchased by a newly chartered non-profit organization, Preservation Longview.  The Campbell House was recognized on the <strong>2009 Texas Most Endangered List</strong> by Preservation Texas, and a matching grant from the National Historic Trust has provided for the completion of a Master Plan by preservation architect Gerald Bratz.  Efforts are underway to raise money to restore this lovely but neglected home, historically significant at both the state and local level.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -7304,10 +7591,12 @@ In early 2008, following years of neglect and a demolition order, the home was r
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -7388,14 +7677,30 @@ The judge‚Äôs home was remodeled in the neo-classical style.  As the home of a p
 
 <p>
 In early 2008, following years of neglect and a demolition order, the home was rescued and purchased by a newly chartered non-profit organization, Preservation Longview.  The Campbell House was recognized on the <strong>2009 Texas Most Endangered List</strong> by Preservation Texas, and a matching grant from the National Historic Trust has provided for the completion of a Master Plan by preservation architect Gerald Bratz.  Efforts are underway to raise money to restore this lovely but neglected home, historically significant at both the state and local level.
-</p>;T;@pI"/cw_lawrence_house/;T{;{	;I"ú<!DOCTYPE HTML>
+</p>;T;@pI"/cw_lawrence_house/;T{;{	;I"_<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -7442,9 +7747,8 @@ Razed in: 1939
 
 <p>The Lawrence home became a familiar landmark until the late 1930‚Äôs, when it was razed to make way for commercial progress.</p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -7465,10 +7769,12 @@ Razed in: 1939
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -7529,14 +7835,30 @@ Razed in: 1939
 
 <p>A progressive man, he was also one of the first doctors in Longview to make the change from horse and buggy to automobile.</p>
 
-<p>The Lawrence home became a familiar landmark until the late 1930‚Äôs, when it was razed to make way for commercial progress.</p>;T;@vI"/daniel_rather_home/;T{;{	;I"W<!DOCTYPE HTML>
+<p>The Lawrence home became a familiar landmark until the late 1930‚Äôs, when it was razed to make way for commercial progress.</p>;T;@vI"/daniel_rather_home/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -7588,9 +7910,8 @@ The Wrathers have adapted the home for their business office of Cherokee Mineral
 We welcome more information on the history of this home.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -7611,10 +7932,12 @@ We welcome more information on the history of this home.
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -7685,14 +8008,30 @@ The Wrathers have adapted the home for their business office of Cherokee Mineral
 
 <p>
 We welcome more information on the history of this home.
-</p>;T;@|I"/falvey_home/;T{;{	;I"°<!DOCTYPE HTML>
+</p>;T;@|I"/falvey_home/;T{;{	;I"d<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -7742,9 +8081,8 @@ The home was soon after sold to Dr. J. W. Falvey, a highly educated physician wh
 Dr. Falvey married Miss Lena Adell Walker of Gladewater in 1913, and their two children, Frances Elizabeth, PhD, and James William, a Longview lawyer, grew up in the house.  
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -7765,10 +8103,12 @@ Dr. Falvey married Miss Lena Adell Walker of Gladewater in 1913, and their two c
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -7835,14 +8175,30 @@ The home was soon after sold to Dr. J. W. Falvey, a highly educated physician wh
 </p>
 <p>
 Dr. Falvey married Miss Lena Adell Walker of Gladewater in 1913, and their two children, Frances Elizabeth, PhD, and James William, a Longview lawyer, grew up in the house.  
-</p>;T;@}I"/finch_home/;T{;{	;I"Á<!DOCTYPE HTML>
+</p>;T;@}I"/finch_home/;T{;{	;I"™<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -7895,9 +8251,8 @@ Similar to the floor plan of the Stephen F. Austin home in Nacogdoches, the home
 Eva Jean Finch Blount, granddaughter of the home‚Äôs builder, grew up in this home with her parents, Mr. and Mrs. John Markham Finch.  The home was recently sold to an area physician, Dr. Don Eakin.  
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -7918,10 +8273,12 @@ Eva Jean Finch Blount, granddaughter of the home‚Äôs builder, grew up in this ho
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -7994,14 +8351,30 @@ Similar to the floor plan of the Stephen F. Austin home in Nacogdoches, the home
 
 <p>
 Eva Jean Finch Blount, granddaughter of the home‚Äôs builder, grew up in this home with her parents, Mr. and Mrs. John Markham Finch.  The home was recently sold to an area physician, Dr. Don Eakin.  
-</p>;T;@ÉI"/flewellen_home/;T{;{	;I",<!DOCTYPE HTML>
+</p>;T;@ÉI"/flewellen_home/;T{;{	;I"Ô<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -8059,9 +8432,8 @@ Electricity and modern conveniences were added before 1906.  The Eason family bo
 The home was razed in 2008 by the owner, the First Baptist Church.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -8082,10 +8454,12 @@ The home was razed in 2008 by the owner, the First Baptist Church.
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -8168,14 +8542,30 @@ Electricity and modern conveniences were added before 1906.  The Eason family bo
 
 <p>   
 The home was razed in 2008 by the owner, the First Baptist Church.
-</p>;T;@âI"/florey_house/;T{;{	;I"$<!DOCTYPE HTML>
+</p>;T;@âI"/florey_house/;T{;{	;I"Á<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -8231,9 +8621,8 @@ The original house plan was a long center hall with 3 large rooms on the right a
 The home was sold in 1998 to two attorneys, who further restored the home.  Today, the Florey Home is the law office of Melba Baxter.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -8254,10 +8643,12 @@ The home was sold in 1998 to two attorneys, who further restored the home.  Toda
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -8336,14 +8727,30 @@ The original house plan was a long center hall with 3 large rooms on the right a
 
 <p>
 The home was sold in 1998 to two attorneys, who further restored the home.  Today, the Florey Home is the law office of Melba Baxter.
-</p>;T;@èI"/hurst_home/;T{;{	;I"<!DOCTYPE HTML>
+</p>;T;@èI"/hurst_home/;T{;{	;I"Œ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -8403,9 +8810,8 @@ The landscaping was done by Lamberts of Shreveport and included a slate goldfish
 Today the home is owned by Jacquelyn Jameson, daughter of Dr. Hurst.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -8426,10 +8832,12 @@ Today the home is owned by Jacquelyn Jameson, daughter of Dr. Hurst.
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -8516,14 +8924,30 @@ The landscaping was done by Lamberts of Shreveport and included a slate goldfish
 
 <p>
 Today the home is owned by Jacquelyn Jameson, daughter of Dr. Hurst.
-</p>;T;@ïI"/lewiss_bivins_house/;T{;{	;I"Ã<!DOCTYPE HTML>
+</p>;T;@ïI"/lewiss_bivins_house/;T{;{	;I"è<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -8576,9 +9000,8 @@ Among the last Victorian dwellings in Longview, the structure exhibits mixed fol
 The home was purchased in 2002 by Bill Haacke and David Fields.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -8599,10 +9022,12 @@ The home was purchased in 2002 by Bill Haacke and David Fields.
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -8675,14 +9100,30 @@ Among the last Victorian dwellings in Longview, the structure exhibits mixed fol
 
 <p>
 The home was purchased in 2002 by Bill Haacke and David Fields.
-</p>;T;@õI"/mitchell_campbell_home/;T{;{	;I"e<!DOCTYPE HTML>
+</p>;T;@õI"/mitchell_campbell_home/;T{;{	;I"(<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -8743,9 +9184,8 @@ Later appointed to a receivership position with the International and Great Nort
 The home was demolished in 1949 and is the current site of the Bramlette Building
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -8766,10 +9206,12 @@ The home was demolished in 1949 and is the current site of the Bramlette Buildin
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -8858,14 +9300,30 @@ Later appointed to a receivership position with the International and Great Nort
 
 <p>
 The home was demolished in 1949 and is the current site of the Bramlette Building
-</p>;T;@°I"/rembert_home/;T{;{	;I"'<!DOCTYPE HTML>
+</p>;T;@°I"/rembert_home/;T{;{	;I"Í<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -8933,9 +9391,8 @@ Upon his death in 1926, Frank left the house to his wife Kate, whose nephew John
 The house now belongs to John Harrison and is being lovingly restored.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -8956,10 +9413,12 @@ The house now belongs to John Harrison and is being lovingly restored.
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -9062,14 +9521,30 @@ Upon his death in 1926, Frank left the house to his wife Kate, whose nephew John
 
 <p>
 The house now belongs to John Harrison and is being lovingly restored.
-</p>;T;@ßI"/robbins_home/;T{;{	;I"<!DOCTYPE HTML>
+</p>;T;@ßI"/robbins_home/;T{;{	;I"ƒ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -9125,9 +9600,8 @@ The backyard originally extended to Highway 80, but Pizza King had the first opt
 The home is now owned by Mr. and Mrs. Gerald Bratz, a preservation architect and his wife.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -9148,10 +9622,12 @@ The home is now owned by Mr. and Mrs. Gerald Bratz, a preservation architect and
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -9230,14 +9706,30 @@ The backyard originally extended to Highway 80, but Pizza King had the first opt
 
 <p>
 The home is now owned by Mr. and Mrs. Gerald Bratz, a preservation architect and his wife.
-</p>;T;@≠I"/rockwall_farm/;T{;{	;I"ì<!DOCTYPE HTML>
+</p>;T;@≠I"/rockwall_farm/;T{;{	;I"V<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -9286,9 +9778,8 @@ Recorded Texas Historic Landmark
 
 <p>Today a historical marker and the remains of one rock column mark the site of the Rockwall Farm.</p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -9309,10 +9800,12 @@ Recorded Texas Historic Landmark
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -9500,14 +9993,30 @@ I"˛                <h1>Resources</h1>
   <li><a href="http://easttexasoilmuseum.com/"> East Texas Oil Museum</a></li>
   <li><a href="http://www.texaspineywoodsexperience.org/" target="_blank">Texas Pineywoods Experience</a></li>
   <li><a href="http://www.thc.state.tx.us/aboutus/abtpdfs/THCStrategicPlan07.pdf" target="_blank">Texas Historical Commission Strategic Plan  for Fiscal Years 2007 √¢‚Ç¨‚Äù 2011</a></li>
-</ul>;T;@πI"/teague_home/;T{;{	;I"Ç<!DOCTYPE HTML>
+</ul>;T;@πI"/teague_home/;T{;{	;I"E<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -9564,9 +10073,8 @@ The Teague family had 10 children, but only one grand-child, who died in early c
 Teague Pond, now part of Teague Park, was always part of this site.  In 1935, Lattimus W. Teague sold 20 acres to the City of Longview as a memorial to his sister Sarah. 
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -9587,10 +10095,12 @@ Teague Pond, now part of Teague Park, was always part of this site.  In 1935, La
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -9671,14 +10181,30 @@ The Teague family had 10 children, but only one grand-child, who died in early c
 
 <p>
 Teague Pond, now part of Teague Park, was always part of this site.  In 1935, Lattimus W. Teague sold 20 acres to the City of Longview as a memorial to his sister Sarah. 
-</p>;T;@øI"/whaley_house/;T{;{	;I"û<!DOCTYPE HTML>
+</p>;T;@øI"/whaley_house/;T{;{	;I"a<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -9731,9 +10257,8 @@ The Whaley House was purchased by the law firm Sharp, Ward, Ross, McDaniel, and 
 Today the Whaley House is the proud home of the law firm of Sloan, Bagley, Hatcher, & Perry, and serves our community as an excellent example of the adaptive reuse of historic homes.
 </p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -9754,10 +10279,12 @@ Today the Whaley House is the proud home of the law firm of Sloan, Bagley, Hatch
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -9830,14 +10357,30 @@ The Whaley House was purchased by the law firm Sharp, Ward, Ross, McDaniel, and 
 
 <p>
 Today the Whaley House is the proud home of the law firm of Sloan, Bagley, Hatcher, & Perry, and serves our community as an excellent example of the adaptive reuse of historic homes.
-</p>;T;@≈I"/yates_hurst_house/;T{;{	;I"∫<!DOCTYPE HTML>
+</p>;T;@≈I"/yates_hurst_house/;T{;{	;I"}<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Judge Campbell House </title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript" src="/javascripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			jQuery(document).ready(function() {
+				$("a[rel=house]").fancybox({
+					'titleShow': false,
+	'transitionIn'	: 'fade'
+				});
+			});
+		//]]>
+	</script>
+    
+<!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2"> 
   </head>
   <body>
@@ -9888,9 +10431,8 @@ Razed in: 1929
 
 <p>The location of the Yates home is now Heritage Plaza.</p>
 		</div>
-    </div>
-    
-    <div id="navigation">
+
+	    <div id="navigation">
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About Us</a></li>
@@ -9911,10 +10453,12 @@ Razed in: 1929
 <p><img src="/images/judgecampbell.jpg" alt="Judge Campbell" width="200" height="251" /></p>
 <p class="caption">Judge Campbell.</p>
 </div>
-	
-	<div id="footer">
+
+		<div id="footer">
     <p>Copyright 2009, Preservation Longview.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site under the direction of <a href="http://www.fullhousemkt.com/">Full House Marketing</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Site design by <a href="http://www.annecampbelldesign.com/" target="_blank">Anne Campbell Design</a><img src="../images/footer-divider.gif" width="21" height="15" alt="*" />Technical expertise provided by <a href="www.letu.edu">LeTourneau University</a>.<img src="../images/footer-divider.gif" width="21" height="15" alt="*" /><a href="mailto:lynettegoodson@yahoo.com">Contact Us Now</a></p>
 </div>
+		
+    </div>
 	
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
