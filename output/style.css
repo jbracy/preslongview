@@ -149,6 +149,7 @@ body {
 }
 
 #content h1 {
+	font-family:Georgia, serif;
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: 0.1em;
@@ -918,7 +919,6 @@ li.leftHalf .small, li.rightHalf .small{
 }
 
 /* ----- scaffold --------- */
-body { background-color: #fff; color: #333; }
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
