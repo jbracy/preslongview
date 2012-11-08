@@ -1,0 +1,255 @@
+#header {
+	text-align: right;
+	color: darkkhaki;
+	height: 20;
+	margin: 0;
+	background-image: url(../images/topbackground.gif);
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+
+#header a {
+    text-decoration: none;
+    color: darkkhaki;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    text-align: center;
+    background-image: url(../images/content-background.gif);
+    background-repeat: repeat-x;
+    background-position: left 152px;
+}
+
+#container {
+    text-align: left;
+    width: 771px;
+    margin: 0 auto;
+}
+
+#top {
+    height: 152px;
+    margin: 0;
+    background-image: url(../images/topbackground.gif);
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+
+#top-house {
+	height:140px;
+	width:100%;
+	background:url(../images/house.gif) center no-repeat;margin:0 auto 0 auto;
+}
+#top .left_banner {
+	float:left;
+	background-color: white;
+	border:3px solid #b21c1c;
+	margin:20px 40px;
+	width:154px;
+	height:80px;	
+}
+
+#top .banner {
+	float:right;
+	background-color: white;
+	border:3px solid #b21c1c;
+	margin:20px 30px;
+	width:270px;
+	height:80px;
+}
+#top .banner .date {
+	float: left;
+	width: 80px;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	margin: 8px 2px;
+	height: 60px;
+}
+#top .banner .date h2, #top .banner .date h4 {
+	margin:0;
+	font-weight:normal;
+}
+#top .banner .date h2 {
+	font-size:27px;
+	color:#b21c1c;
+}
+#top .banner .date h4 {
+	font-size:13px;
+}
+#top .banner .line {
+	font-weight:bold;
+	margin-top:5px;
+}
+
+#ribbon {
+    width: 781px;
+    height: 66px;
+    margin: 0 auto;
+    margin-top: -13px;
+}
+
+#ribbon h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    float: left;
+    width: 501px;
+    padding: 10px;
+}
+
+#content h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-align: right;
+    margin-top: 0;
+}
+
+#content h2 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	margin-bottom: -0.5em;
+	margin-top: 1em;
+}
+#content h3 {  font-size: 1.05em; }
+#content p {
+    line-height: 150%;
+    text-align: left;
+}
+
+#content p img {
+    margin: 0 15px 15px 0;
+    float: left;
+}
+
+#content a { color: #000; }
+
+#content ul.links { margin: 0; padding: 15px; }
+#content ul.links li { line-height: 140%; }
+
+#navigation {
+    float: right;
+    width: 230px;
+    padding: 10px;
+}
+
+#navigation ul {
+    border-left: 2px solid black;
+    margin: 0;
+    padding: 0 0 0 10px;
+    list-style-type: none;
+    font-size: 1.1em;
+    font-style: italic;
+    line-height: 140%;
+}
+#navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+#navigation a:active, #navigation a:hover {
+    text-decoration: underline;
+}
+
+#navigation p {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#navigation p.caption {
+    font-variant: small-caps;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding: 15px 0 15px 0;
+}
+
+#footer p {
+    line-height: 140%;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+#footer img {
+    margin: 0 5px -3px 5px;
+}
+
+#footer a {
+    color: black;
+}
+ul {
+	border:0;
+	padding:0;
+}
+ul.paybox li {
+	display:inline;
+	list-style:none;
+	float:left;
+	width:248px;
+	text-align:center;
+	min-height:200px;
+}
+ul.paybox li h4 {
+	margin-top:50px;
+}
+
+.date {
+	float: left;
+	width: 80px;
+	border-right: 1px solid #333;
+	text-align: center;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.date .day {
+	font-size:34px;
+	color:#009900;
+}
+.date .day a {
+	text-decoration:none;
+	border:0;
+}
+.date .month {}
+.date .time {}
+.event-description {
+	margin-left: 100px;
+}
+.bottom-margin {
+	padding-bottom: 20px;
+}
+.clear {
+	clear: both;
+}
+
+#houses {
+	width:380px;
+	margin:0 auto;
+}
+#houses .house{
+	float: left;
+	width:110px;
+	text-align:center;
+	margin:5px;
+}
+#houses .house a img {
+	border: 5px solid #000;
+	margin:0;
+}
